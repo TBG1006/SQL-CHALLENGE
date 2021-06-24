@@ -81,5 +81,9 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 
 2. Create a histogram to visualize the most common salary ranges for employees.
 
+![Sal_Range](Images/Salary_Ranges.PNG)
+
 3. Create a bar chart of average salary by title.
+
+![Avg_Sal](Images/Avg_Salary.PNG)
 
