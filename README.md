@@ -1,18 +1,28 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+# SQL - Employee Database: A Mystery in Two Parts
 
 ![sql.png](Images/sql.png)
+
+## Summary
+
+Design and implement a relational database to answer questions about employeee characteristics. Use SQL to query the database in order to:
+
+2. Create a histogram to visualize the most common salary ranges for employees.
+
+![Sal_Range](Images/Salary_Ranges.PNG)
+
+3. Create a bar chart of average salary by title.
+
+![Avg_Sal](Images/Avg_Salary.PNG)
 
 ## Background
 
 It is a beautiful spring day, and it is two weeks since you have been hired as a new data engineer at Pewlett Hackard. Your first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
 
-In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
+Design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
 1. Data Engineering
 
 3. Data Analysis
-
-Note: You may hear the term "Data Modeling" in place of "Data Engineering," but they are the same terms. Data Engineering is the more modern wording instead of Data Modeling.
 
 #### Data Modeling
 
@@ -26,8 +36,6 @@ Inspect the CSVs and sketch out an ERD of the tables. Feel free to use a tool li
 
   * For the primary keys check to see if the column is unique, otherwise create a [composite key](https://en.wikipedia.org/wiki/Compound_key). Which takes to primary keys in order to uniquely identify a row.
   * Be sure to create tables in the correct order to handle foreign keys.
-
-* Import each CSV file into the corresponding SQL table. **Note** be sure to import the data in the same order that the tables were created and account for the headers when importing to avoid errors.
 
 #### Data Analysis
 
@@ -64,12 +72,3 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 * Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 
 * If using a password, do not upload your password to your GitHub repository. See [https://www.youtube.com/watch?v=2uaTPmNvH0I](https://www.youtube.com/watch?v=2uaTPmNvH0I) and [https://help.github.com/en/github/using-git/ignoring-files](https://help.github.com/en/github/using-git/ignoring-files) for more information.
-
-2. Create a histogram to visualize the most common salary ranges for employees.
-
-![Sal_Range](Images/Salary_Ranges.PNG)
-
-3. Create a bar chart of average salary by title.
-
-![Avg_Sal](Images/Avg_Salary.PNG)
-
